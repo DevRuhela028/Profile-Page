@@ -8,16 +8,18 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
-    height: 60px; /* Adjust as needed */
+    background-color: black;
+    height: 60px; 
+    border : 2px solid white;
+    color : white;
 }
 
 .main-content {
     display: flex;
     height: 100vh;
-    background-color: aquamarine;
-    margin-top: 10px;
-    padding: 20px; /* Added padding for spacing */
+    background-color: white;
+    margin-top: 0px;
+    padding: 0px;
 }
 
 .left-section {
@@ -25,10 +27,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color : #101820;
+    border : 2px solid white;
 }
+
 
 .dev-img {
     height: 200px;
+    margin-top: 10%;
 }
 
 .name {
@@ -58,12 +64,14 @@ header {
     height : 40px;
     border-radius: 10px;
 }
-
 .right-section {
     flex: 1;
     display: flex;
     flex-direction: column;
-    margin-left: 20px; /* Adjust as needed */
+    margin-left: 0%; 
+    background-color: #FEE715;
+    border : 2px solid white;
+    
 }
 
 .section {
@@ -72,4 +80,29 @@ header {
 
 h2 {
     margin-bottom: 10px;
+}
+.name{
+    color : white;
+}
+.social-icons{
+    color : white;
+    display:inline-block;
+    margin-top: 350px;
+}
+.skills{
+    margin-left: 15%;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.edu{
+    margin-top: 4%;
+    margin-left :15%;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hobbies{
+    margin-left: 15%;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact{
+    margin-left: 15%;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
