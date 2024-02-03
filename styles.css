@@ -8,10 +8,19 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    height: 60px; 
+    background-color:#101820;
+    height: 70px; 
     border : 2px solid white;
     color : white;
+}
+header p{
+    position: absolute;
+    right: 30px;
+    display: flex;
+    flex-direction: row;
+}
+header p a{
+    margin-left: 15px;
 }
 
 .main-content {
@@ -23,7 +32,7 @@ header {
 }
 
 .left-section {
-    width: 30vh;
+    width: 35vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,8 +42,8 @@ header {
 
 
 .dev-img {
-    height: 200px;
-    margin-top: 10%;
+    height: 230px;
+    margin-top: 13%;
 }
 
 .name {
@@ -65,13 +74,13 @@ header {
     border-radius: 10px;
 }
 .right-section {
-    flex: 1;
+    flex: 3;
     display: flex;
     flex-direction: column;
     margin-left: 0%; 
     background-color: #FEE715;
     border : 2px solid white;
-    
+    justify-content: space-around;
 }
 
 .section {
@@ -80,6 +89,8 @@ header {
 
 h2 {
     margin-bottom: 10px;
+    font-size: 2rem;  
+    text-align: center; 
 }
 .name{
     color : white;
@@ -90,19 +101,58 @@ h2 {
     margin-top: 350px;
 }
 .skills{
+    border: 2px solid black;
+    width : 400px;
+    border-radius: 10px;
     margin-left: 15%;
     font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.edu{
-    margin-top: 4%;
+.skills li{
+    font-size : 1.35rem;
+}
+.skills:hover{
+    border : 5px solid black;
+}
+.edu {
+    border: 2px solid black;
+    width : 400px;
+    border-radius: 10px;
     margin-left :15%;
     font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.edu:hover{
+    border : 5px solid black;
+}
+
+.edu li{
+    font-size : 1.35rem;
+}
 .hobbies{
+    border: 2px solid black;
+    width : 400px;
+    border-radius: 10px;
     margin-left: 15%;
     font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hobbies li{
+    font-size : 1.35rem;
+}
+.hobbies:hover{
+    border : 5px solid black;
 }
 .contact{
+    border: 2px solid black;
+    width : 400px;
+    border-radius: 10px;
     margin-left: 15%;
     font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.contact li{
+    font-size : 1.35rem;
+}
+.contact:hover{
+    border : 5px solid black;
+}
+
+
+
