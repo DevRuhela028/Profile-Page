@@ -153,6 +153,24 @@ h2 {
 .contact:hover{
     border : 5px solid black;
 }
-
+@media screen and (max-width: 768px) {
+    header p {
+        right: 1rem;
+    }
+    .dev-img {
+        height: 10rem;
+    }
+    .social-icons {
+        margin-top: 10rem;
+    }
+    .social-icons a {
+        margin-bottom: 5rem;
+    }
+    .skills, .edu, .hobbies, .contact {
+        width: 90%; /* Adjust width for smaller screens */
+        margin-left: auto; /* Center horizontally */
+        margin-right: auto;
+    }
+}
 
 
