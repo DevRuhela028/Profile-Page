@@ -1,176 +1,236 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    background-color: #101820;
+}
+header{
+    display: block ;
+    background-color: burlywood;
+}
+.head {
+    
+    height: 4.1rem;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    /* width: 100vh;  */
+    position: relative;
+    font-family:"Trirong",serif;
+}
+.head i{
+    transition: 0.23s;
+}
+.head i:hover{
+    transform: scale(1.1);
+    
+}
+.skill {
+    flex:1;
+    text-align: center; 
+    font-weight: 900;
 }
 
-header {
+.right {
+    margin-right: 1%;
+    padding: 0;
     display: flex;
+}
+.right i{
+    margin: 0.3rem;
+}
+.l{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#101820;
-    height: 70px; 
-    border : 2px solid white;
-    color : white;
-}
-header p{
-    position: absolute;
-    right: 30px;
-    display: flex;
-    flex-direction: row;
-}
-header p a{
-    margin-left: 15px;
-}
-
-.main-content {
-    display: flex;
     height: 100vh;
-    background-color: white;
-    margin-top: 0px;
-    padding: 0px;
+    position: relative;
 }
-
-.left-section {
-    width: 35vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color : #101820;
-    border : 2px solid white;
+/* .r{
+    border: 2px solid white;
+} */
+.container{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 2.5fr;
 }
-
-
-.dev-img {
-    height: 230px;
-    margin-top: 13%;
+.img{
+    flex:1;
+    margin-top: 5%;
+    padding: 8%;
 }
-
-.name {
-    margin-top: 10px;
+p{
+    color: aliceblue;
+    font-size: 2.4rem;
+    /* margin-top: 35%; */
+    /* margin-left: 2.5%; */
+}
+span{
+    color: #CCCCCC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+.dev{
+    flex:2;
     text-align: center;
 }
+.dev h4{
+    margin-top: 1%;
+}
+/* .social-icons{
+    margin-bottom: 5rem;
+} */
+.social-icons i{
+    color: burlywood;
+    padding: 0.8rem;
+    transition-duration: 0.2s;
 
-.social-icons {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
 }
-
-.social-icons a {
-    margin-bottom: 10px;
-}
-
-.icon1 {
-    height: 65px;
-    border-radius: 8px;
-}
-.icon2 {
-    height : 45px;
-    border-radius: 50px;
-}
-.icon3{
-    height : 40px;
-    border-radius: 10px;
-}
-.right-section {
-    flex: 3;
-    display: flex;
-    flex-direction: column;
-    margin-left: 0%; 
-    background-color: #FEE715;
-    border : 2px solid white;
-    justify-content: space-around;
+.social-icons i:hover{
+    transform: scale(1.1);
 }
 
-.section {
-    margin-bottom: 20px; /* Adjust as needed */
-}
-
-h2 {
-    margin-bottom: 10px;
-    font-size: 2rem;  
-    text-align: center; 
-}
-.name{
-    color : white;
-}
-.social-icons{
-    color : white;
-    display:inline-block;
-    margin-top: 350px;
-}
 .skills{
-    border: 2px solid black;
-    width : 400px;
+    color: burlywood;
+    border: 2px solid burlywood;
+    width : 25rem;
     border-radius: 10px;
-    margin-left: 15%;
+    /* margin-left: 15%; */
     font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-duration: 0.2s;
 }
 .skills li{
     font-size : 1.35rem;
 }
 .skills:hover{
-    border : 5px solid black;
+    transform: translateY(-5px);
+    border : 3px solid rgb(190, 189, 187);
 }
 .edu {
-    border: 2px solid black;
-    width : 400px;
+    color: burlywood;
+    border: 2px solid burlywood;
+    width : 25rem;
     border-radius: 10px;
-    margin-left :15%;
+    /* margin-left :15%; */
     font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-duration: 0.2s;
 }
 .edu:hover{
-    border : 5px solid black;
+    transform: translateY(-5px);
+    border : 3px solid rgb(190, 189, 187);
 }
 
 .edu li{
     font-size : 1.35rem;
 }
 .hobbies{
-    border: 2px solid black;
-    width : 400px;
+    color: burlywood;
+    border: 2px solid burlywood;
+    width : 25rem;
     border-radius: 10px;
-    margin-left: 15%;
+    /* margin-left: 15%; */
     font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-duration: 0.2s;
 }
 .hobbies li{
     font-size : 1.35rem;
 }
 .hobbies:hover{
-    border : 5px solid black;
+    transform: translateY(-5px);
+    border : 3px solid rgb(190, 189, 187);
 }
 .contact{
-    border: 2px solid black;
-    width : 400px;
+    color: burlywood;
+    border: 2px solid burlywood;
+    width : 25rem;
     border-radius: 10px;
-    margin-left: 15%;
+    /* margin-left: 15%; */
     font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-duration: 0.2s;
 }
 .contact li{
     font-size : 1.35rem;
 }
 .contact:hover{
-    border : 5px solid black;
+    transform: translateY(-5px);
+    border : 3px solid rgb(190, 189, 187);
 }
-@media screen and (max-width: 768px) {
-    header p {
-        right: 1rem;
+.m{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.contact a{
+    text-decoration: none;
+}
+
+@media (min-width:800px){
+    .social-icons{
+        margin-top:5rem;
     }
-    .dev-img {
-        height: 10rem;
+}
+@media (max-width:800px) and (min-width:600px) {
+    .l{
+        padding:2rem;
     }
-    .social-icons {
-        margin-top: 10rem;
-    }
-    .social-icons a {
-        margin-bottom: 5rem;
-    }
-    .skills, .edu, .hobbies, .contact {
-        width: 90%; /* Adjust width for smaller screens */
-        margin-left: auto; /* Center horizontally */
-        margin-right: auto;
+    .social-icons{
+        margin-bottom : 10rem;
     }
 }
 
+@media (max-width:599px) and (min-width:100px){
+    .l{
+        padding: 3rem;
+    }
+    header{
+        background-color: burlywood;
+    }
+    .head{
+        width: 50rem;
+    }
+    header{
+        display: block;
+        background-color: burlywood;
+    }
+    .social-icons{
+        margin-bottom: 4rem;
+    }
+    .r{
+        text-decoration: none;
+    }
+    
+}
+@media (min-width:801px) and (max-width:1200px){
+    .l{
+        padding: 4rem;
+    }
+    .social-icons{
+        margin-bottom: 20rem;
+    }
+    .container{
+        grid-template-columns: 2fr 2fr;
+    }
+}
+@media (min-width:1201px){
+    .social-icons{
+        margin-bottom: 7rem;
+    }
+    head{
+    border: 2px solid black;
+    /* height: 4.1rem; */
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    /* width: 100vh;  */
+    position: relative;
+    font-family:"Trirong",serif;
+    }
 
+}
