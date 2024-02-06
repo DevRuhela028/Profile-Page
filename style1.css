@@ -1,21 +1,34 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    
 }
 
 header {
+    height: 4.1rem;
+    background-color: burlywood;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: #FEE715;
-    height: 60px; 
-    border : 2px solid black;
-    color : #101820;
+    font-size: 2.5rem;
+    /* width: 100vh;  */
+    position: relative;
+    font-family:"Trirong",serif;
 }
-.left{
-    position: absolute;
-    left : 10px;
+
+.left {
+    margin-left: 1%;
+    padding: 0;
+}
+
+.skill {
+    flex: 1;
+    text-align: center; 
+}
+
+.right {
+    margin-right: 1%;
+    padding: 0;
+    display: flex;
 }
 
 .head{
@@ -43,7 +56,7 @@ header {
     border-radius: 10px;
     font-family : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px;
-    color : white;
+    color : burlywood  ;
 }
 li{
     font-size: 1.35rem;
@@ -53,6 +66,7 @@ h2{
     font-size: 30px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    color : white;
 }
 a{
     text-decoration: none;
